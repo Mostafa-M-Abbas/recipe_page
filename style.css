@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+:root{
+    --brown:hsl(14, 45%, 36%) 
+}
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Young Serif", serif;
+  margin: 10px;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+.container{
+    max-width: 376px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container img{
+    width:100% ; 
+    height:auto;
+    border-radius:10px ; 
+}
+.Preparation-time .preparation-header{
+    color:hsl(332, 51%, 32%) ;
+}
+.Preparation-time{
+    background-color:hsl(330, 100%, 98%) ; 
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+.ingredients-header{
+    color:var(--brown) ; 
+}
+
+.ingredients{
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.instructions-header{
+    color:var(--brown) ;
+}
+
+.instructions{
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.ingredients li,
+.instructions li{
+    margin-bottom:10px;
+}
+.nurititon-header{
+    color:var(--brown) ;
+}
+@media (min-width:1440px){
+    .container{
+        max-width:400px;
+    }
+}
